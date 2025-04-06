@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .box{
+        box-sizing: border-box;
+        border:2px solid red;
+        /* width: 100px; */
+        width: 80vw;
+        height: 10vh;
+        margin: auto;
+        background-color: aquamarine;
+    }
+
+    html{
+        font-size: 12px;
+    }
+
+    .container{
+        box-sizing: border-box;
+        border: 2px solid black;
+        width: 80vw;
+        /* height: 80vh; */
+        min-height: 80vh;
+        margin: 23px auto;
+        font-size: 18px;
+        background-color: burlywood;
+        color: green;
+    }
+
+    .container > div{
+        font-size: 2em;
+        border: 2px solid red;
+        width: 50%;
+    }
+    
+    .container > div > div{
+        border: 2px solid blue;
+        width: 50%;
+    }
+
+    .mycont{
+        border: 2px solid black;
+        background-color: red;
+        box-sizing: border-box;
+        margin: 23px auto;
+        color: yellow;
+        font-size: 22px;
+        width: 80vw;
+    }
+</style>
+<body>
+    <div class="box">
+        This is a box
+    </div>
+
+    <div class="container">
+        <div>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet praesentium itaque perferendis.
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, temporibus ullam. Repudiandae!
+            </div>
+        </div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vero repudiandae magnam, doloribus odio nulla aliquid quibusdam, labore at deserunt earum, explicabo ipsa quisquam molestias quam aperiam natus temporibus. Reiciendis ut alias dolorem aspernatur consequuntur ea nemo, adipisci aut? Laborum maiores accusantium debitis suscipit laboriosam itaque tenetur qui nobis delectus dicta! Ducimus assumenda dolores rerum ipsa quo quisquam quasi nisi consectetur iusto distinctio accusantium soluta vel at aliquid fugit culpa doloremque temporibus iste nostrum, cupiditate voluptatum beatae consequatur numquam. Necessitatibus dolorem fuga neque illo amet nemo reprehenderit placeat blanditiis? Ad alias asperiores molestiae, minima eos vitae doloribus incidunt quibusdam odio non provident harum dolorem architecto officiis quam minus culpa ipsa at? Sunt aliquam non fugiat saepe? Optio odio, repellendus cumque officia eius laudantium?
+    </div>
+
+    <div class="mycont">
+        I am another container.
+    </div>
+
+</body>
+</html>
